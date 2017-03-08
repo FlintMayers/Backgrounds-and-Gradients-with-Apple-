@@ -1,0 +1,208 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /*box-sizing: border-box;*/
+}
+
+/*Start Nav Styling*/
+nav {
+  margin: 0 auto;
+  top: 18px;
+  position: relative;
+  width: 980px;
+  height: 36px;
+  /*background-color: grey;*/
+  border-radius: 5px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFAAAA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F5YtmQAAAACd0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmZiD6WAAAAdlJREFUeF7t3btuFEEQheFzunotGYkIERA4spn3fyeHiAgEEtsXB82s2eEJavR%2F0Wjyo75XWfHpw4MkSXNqCkA2lr2%2B%2Fvz63n15qpI0x5yTSAM52XaxJLVXf%2FkoaY6xQk2sgXy8Ql2KJf3wS5HG6HMMQg3kZNkuxVGKNLxJo48%2BxhxTpBrIx7JcXEqUKJI3zd77CjWLaiAle4U6Iixv6q33MfocTL%2BBlCy7OEqJqCFvs%2FV2m3%2BTaiAd6zb7rlHtrbc1VA%2Bm30BSa%2B%2B7RNSo4a21thbVTL%2BBnCy7rCV1rdXbtbXW%2B%2Bh%2Ft78BZLM2v6NE1Fov%2FrpC3Zl%2BA2l5H6lrrRe%2FXNu%2BqCbUQE57qGvsoW5t9D4H028gJculOKLUWuvFz%2B16O9NipAZSsm8nWpfq53ZlTQ3k9s%2BamlADZ0CogZMh1MDJEGrgZAg1cDL%2Fh5ojLSC1%2ByMtLp8A2R0un3BNFEjv%2FpooDzqA9O4fdPD0Esju8PSSIglAdsciCZQzArI7lDOat30yCg8CGe2FB1eovZcI7oMSwUBSq0TwWlQHxfyBEzgW86ftDpDase0ODfKA7A4N8mhlC2R318r2px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC') no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+}
+
+.nav-wrapper {
+  margin: auto;
+  /*width: 1070px;*/
+}
+
+nav li {
+  display: inline-block;
+  width: 100px;
+  height: 32px;
+  vertical-align: top;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+nav ul div {
+  margin: auto;
+  margin-top: 10px;
+}
+
+#logo {
+  margin-top: 3px;
+  width: 18px;
+  height: 23px;
+  background: url('img/navbar.png') no-repeat -71px -3px;
+}
+
+#store {
+    width: 31px;
+    height: 12px;
+    background: url('img/navbar.png') no-repeat -64px -38px;
+}
+
+#mac {
+  width: 30px;
+  height: 12px;
+  background: url('img/navbar.png') no-repeat -65px -68px;
+}
+
+#iPod {
+  width: 30px;
+  height: 12px;
+  background: url('img/navbar.png') no-repeat -65px -98px;
+}
+
+#iPhone {
+  width: 46px;
+  height: 12px;
+  background: url('img/navbar.png') no-repeat -57px -129px;
+}
+
+#iPad {
+  width: 46px;
+  height: 12px;
+  background: url('img/navbar.png') no-repeat -57px -158px;
+}
+
+#iTunes {
+  width: 46px;
+  height: 12px;
+  background: url('img/navbar.png') no-repeat -57px -188px;
+}
+
+#support {
+  width: 55px;
+  height: 15px;
+  background: url('img/navbar.png') no-repeat -50px -218px;
+}
+
+#search {
+  position: relative;
+}
+
+#search i {
+  position: absolute;
+  padding-left: 11px;
+  padding-top: 8px;
+}
+
+#search input {
+  height: 19px;
+  width: 106px;
+  border-radius: 12px;
+  margin-top: 7px;
+  margin-left: 8px;
+  background: transparent;
+  /*border: 1px solid black;*/
+}
+
+/*End Nav Styling*/
+
+section {
+  position: relative;
+  margin: 0 auto;
+  width: 1440px;
+  height: 538px;
+  background: url('https://web.archive.org/web/20140228113259/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') 50% 100% no-repeat;
+}
+
+header {
+  margin-top: 110px;
+  margin-bottom: 156px;
+}
+
+header img {
+  margin: 0 auto;
+  display: block;
+}
+
+#title2 {
+  margin-top: -10px;
+}
+
+header div {
+  height: 32px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+#title3:hover {
+  margin-top: -32px;
+}
+
+/*End styling within background*/
+
+.images img {
+  float: left;
+  width: 360px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*Footer Styling*/
+
+footer{
+  height: 90px;
+  box-sizing: border-box;
+}
+
+footer .wrapper {
+  margin: 0 auto;
+  width: 980px;
+  height: 90px;
+  font-size: 10px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.wrapper .left {
+  width: 49%;
+  color: #6e6e6e;
+  display: inline;
+}
+
+.wrapper .index {
+  list-style-type: none;
+}
+
+.wrapper .right {
+  display: inline;
+  float: right;
+}
+
+.wrapper .index li {
+  display: inline;
+  border-right: 1px solid #6e6e6e;
+  padding: 0 3px;
+}
+
+.wrapper .second-left a:first-child {
+  border-right: 1px solid #6e6e6e;
+  padding: 0 3px;
+}
+
+.wrapper .second-left {
+  padding-top: 15px;
+  color: #6e6e6e;
+}
+
+.wrapper a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
+}
